@@ -21,7 +21,7 @@ void quick_sort(int* arr, int start, int end)
 	{
 		if (arr[i] <= arr[pivot])
 			i++;
-		if (arr[j] >= arr[pivot] && arr[j] >= arr[pivot])
+		if (arr[j] >= arr[pivot])
 			j--;
 
 		if (i > j)	// i 과 j 가 서로 교차했을 경우
